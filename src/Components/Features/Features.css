@@ -1,0 +1,10 @@
+.feature-box{
+    transition: linear .6s;
+}
+.feature-box:hover{
+    background-color: #202124;
+    color: white;
+}
+image{
+    height: 150px;
+}

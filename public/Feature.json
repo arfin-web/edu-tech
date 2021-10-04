@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Exclusive Courses",
+        "description": "We have exclusive courses for you",
+        "image": "https://thumbs.dreamstime.com/b/online-course-icon-trendy-modern-flat-linear-vector-cour-white-background-thin-line-e-learning-education-collection-130947304.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Creative Tutorials",
+        "description": "Our tutorials have made with creative minds",
+        "image": "https://static.vecteezy.com/system/resources/previews/001/500/267/non_2x/creative-idea-icon-free-vector.jpg"
+    },
+    {
+        "id": 3,
+        "name": "World class Coach",
+        "description": "We have world class coach for you",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQbnwnFPrJwoLXELGc7Lq0HTbW8h6QMlimFB-Kdjo_LCfqg8H8lTwu-ZdAe-t55cbnJKQ&usqp=CAU"
+    },
+    {
+        "id": 4,
+        "name": "World Ranking",
+        "description": "Our institute is one of the top institute in the world",
+        "image": "https://thumbs.dreamstime.com/b/rank-icon-vector-seo-website-concept-thin-line-illustration-editable-stroke-linear-sign-use-web-mobile-apps-192172696.jpg"
+    }
+]

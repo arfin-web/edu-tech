@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Web Design",
+        "description": "The best web design course ever",
+        "image": "https://www.search4local.co.uk/wp-content/uploads/2020/06/Cardiff-Web-Design-Agency.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Web development",
+        "description": "The best development course",
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+    },
+    {
+        "id": 3,
+        "name": "Graphics design",
+        "description": "The best Graphics design course ever",
+        "image": "https://media.istockphoto.com/photos/graphic-design-studio-picture-id899635470?b=1&k=20&m=899635470&s=170667a&w=0&h=phb1MqZz1ue081X5f1Tl0I1dn3OpR6uv4cAFl8bdTqU="
+    },
+    {
+        "id": 4,
+        "name": "SEO",
+        "description": "The best SEO course ever",
+        "image": "https://img.graphicsurf.com/2019/12/SEO-vector-free-illustration2.jpg"
+    }
+]

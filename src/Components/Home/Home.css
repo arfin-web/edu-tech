@@ -1,0 +1,5 @@
+.background{
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%,rgba(241, 243, 243, 0.945) 100%, rgba(220,53,69,1) 35%);
+}
