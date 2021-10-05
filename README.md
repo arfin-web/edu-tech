@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# Welcome to one of the best edu tech website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Visit Our Website](https://modest-goodall-b9cd96.netlify.app/).
 
-## Available Scripts
+## Best Features
 
-In the project directory, you can run:
+### Superfast Loading
+### Cool Animation Added
+### World class Courses Added
 
 ### `npm start`
 
