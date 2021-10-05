@@ -5,6 +5,9 @@ import { NavLink } from 'react-router-dom';
 import Features from '../Features/Features';
 import Topcourse from '../Topcourse/Topcourse';
 import Offer from '../Offer/Offer';
+import Team from '../Team/Team';
+import "animate.css";
+import Zoom from 'react-reveal/Zoom';
 
 const Home = () => {
     const [features, setFeatures] = useState([]);
@@ -15,11 +18,11 @@ const Home = () => {
             .then(data => setFeatures(data))
     }, [])
     return (
-        <div>
+        <div className="home">
             <div className="background">
                 <div className="container mt-5 pt-5">
                     <div className="row">
-                        <div className="col p-5 mt-5">
+                        <div className="col p-5 mt-5 animate__animated animate__backInLeft">
                             <h1 className="text-white mt-5">Increase Your <span className="text-danger fw-bolder">Skill</span></h1>
                             <h4 className="text-white">By Enrolling Our World Class Courses</h4>
                             <NavLink to="/enroll">
@@ -27,7 +30,7 @@ const Home = () => {
                             </NavLink>
                         </div>
                         <div className="col p-5">
-                            <img src={banner} className="img-fluid mt-3" alt="banner"></img>
+                            <img src={banner} className="img-fluid mt-3 animate__animated animate__backInRight" alt="banner"></img>
                         </div>
                     </div>
                 </div>
@@ -35,13 +38,15 @@ const Home = () => {
 
             {/* feature part */}
             <div className="container mt-5">
-                <div className="row row-cols-1 row-cols-md-4 g-5">
-                    {
-                        features.map(feature => <Features
-                            key={feature.id}
-                            feature={feature}></Features>)
-                    }
-                </div>
+                <Zoom>
+                    <div className="row row-cols-1 row-cols-md-4 g-5">
+                        {
+                            features.map(feature => <Features
+                                key={feature.id}
+                                feature={feature}></Features>)
+                        }
+                    </div>
+                </Zoom>
             </div>
 
             {/* top courses part */}
@@ -49,6 +54,9 @@ const Home = () => {
 
             {/* offer part */}
             <Offer></Offer>
+
+            {/* team part */}
+            <Team></Team>
 
         </div>
     );

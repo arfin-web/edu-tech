@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './Singlecourse.css';
 
 const Singlecourse = (props) => {
     const { name, description, image } = props.singleCourse;
@@ -14,7 +15,9 @@ const Singlecourse = (props) => {
                         <NavLink to="/enroll">
                             <button type="button" className="btn btn-outline-danger me-2">Enroll</button>
                         </NavLink>
-                        <button type="button" className="btn btn-danger">Details</button>
+                        <NavLink to="/course">
+                            <button type="button" className="btn btn-danger">Details</button>
+                        </NavLink>
                     </div>
                 </div>
             </div>

@@ -1,9 +1,10 @@
 import React from 'react';
+import "animate.css";
 
 const Enroll = () => {
     return (
-        <div>
-            <div className="container mt-5 pt-5">
+        <div className="enroll-container">
+            <div className="container mt-5 pt-5 animate__animated animate__slideInDown">
                 <h3 className="text-danger fw-bold mb-3">Fill the form to enroll our courses</h3>
                 <hr />
                 <form className="row g-3 mt-3">

@@ -1,10 +1,7 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import './Course.css';
 
-const Course = (props) => {
-    const { name, description, image } = props.course;
-
+const Member = (props) => {
+    const { name, description, image } = props.member;
     return (
         <div>
             <div className="col">
@@ -13,12 +10,6 @@ const Course = (props) => {
                     <div className="card-body">
                         <h5 className="card-title text-danger fw-bold">{name}</h5>
                         <p className="card-text">{description}</p>
-                        <NavLink to="/enroll">
-                            <button type="button" className="btn btn-outline-danger me-2">Enroll</button>
-                        </NavLink>
-                        <NavLink to="/course">
-                            <button type="button" className="btn btn-danger">Details</button>
-                        </NavLink>
                     </div>
                 </div>
             </div>
@@ -26,4 +17,4 @@ const Course = (props) => {
     );
 };
 
-export default Course;
+export default Member;

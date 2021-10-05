@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import about from '../../Images/about.svg';
 import points from '../../Images/points.svg';
+import "animate.css";
 
 const About = () => {
     return (
@@ -9,13 +10,13 @@ const About = () => {
             <div className="about-background">
                 <div className="container mt-5 pt-5 h-auto">
                     <div className="row">
-                        <div className="col p-5">
+                        <div className="col p-5 animate__animated animate__zoomInLeft">
                             <h1 className="text-dark mt-5">About Our <span className="text-danger fw-bolder">Academy</span></h1>
                             <h4 className="text-dark">Top Skill development academy in the world.</h4>
                             <p>Welcome to one of the top ranking skill gaining academy in the world. We have international standerd courses for you. By enrolling these courses, you can easily gain your valuable skill.</p>
                         </div>
                         <div className="col p-5">
-                            <img src={about} className="img-fluid mt-5" alt="about"></img>
+                            <img src={about} className="img-fluid mt-5 animate__animated animate__zoomInRight" alt="about"></img>
                         </div>
                     </div>
                 </div>
@@ -24,9 +25,9 @@ const About = () => {
                 <div className="container mt-5 pt-5">
                     <div className="row">
                         <div className="col p-5">
-                            <img src={points} className="img-fluid" alt="about"></img>
+                            <img src={points} className="img-fluid animate__animated animate__zoomInLeft" alt="about"></img>
                         </div>
-                        <div className="col p-5">
+                        <div className="col p-5 animate__animated animate__zoomInRight">
                             <h1 className="text-dark">Know More about our <span className="text-danger fw-bolder">Academy</span></h1>
                             <div className="accordion mt-3 border-0 rounded-3 shadow-lg" id="accordionExample">
                                 <div className="accordion-item">
